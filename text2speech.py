@@ -1,7 +1,5 @@
 
 import requests
-import gtts
-import pyttsx3
 import datetime
 import os
 import re
