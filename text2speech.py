@@ -141,8 +141,8 @@ class final_path_mp3():
         return path
 
 
-payload = text2voice.get_payload()
+payload = text2voice.get_payload() # read file payload.txt for the payload send to zalo
 print(payload)
-id = 'test'
+id = 'test' # Change this for the name file mp3
 path = final_path_mp3.get_path_mp3(id,payload)
 print(path)
